@@ -5,3 +5,7 @@
 - name: Print URL
   ansible.builtin.debug:
     msg: URL - {{URL}}
+
+- name: Print Example
+  ansible.builtin.debug:
+    msg: EXAMPLE - {{EXAMPLE}}
