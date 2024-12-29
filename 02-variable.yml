@@ -18,7 +18,7 @@
       vars:
         URL: tasks.google.com
 
-- Demo on Roles variables
+- name: Demo on Roles variables
 - hosts: localhost
   connection: local
   roles:
