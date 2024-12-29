@@ -14,3 +14,9 @@
       tags:
         - service
         - systemd
+
+    - name: Stop nginx
+      ansible.builtin.debug:
+        msg: Stopped nginx
+      tags:
+        - stop
