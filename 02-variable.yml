@@ -19,7 +19,7 @@
         URL: tasks.google.com
 
 - name: Demo on Roles variables
-- hosts: localhost
+  hosts: localhost
   connection: local
   roles:
     - sample
